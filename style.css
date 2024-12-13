@@ -1,0 +1,32 @@
+[data-testid="stMainBlockContainer"]{
+    background-color: #D9EAFD;
+    text-align: center;
+    border: 2px solid #BCCCDC;
+    height: 700px;
+}
+[data-testid="stMain"]{
+    background-color: #F8FAFC;
+}
+
+
+[data-testid="stHorizontalBlock"]{
+    background-color:#BCCCDC;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.st-dg{
+    border: 2px solid #BCCCDC;
+}
+button{
+    border: #BCCCDC !important;
+    color:black !important;
+
+}
+button:hover {  
+    background-color:#BCCCDC !important; 
+    color: white !important;
+    border: white !important;
+}
+
+
