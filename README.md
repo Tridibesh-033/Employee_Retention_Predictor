@@ -20,6 +20,11 @@ This project applies machine learning to analyze factors affecting employee rete
 
 ## Plot bar charts showing corelation between department and employee retention
 
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output_1.png?raw=true)
+
+
+# User Application 
+
 
 
 
