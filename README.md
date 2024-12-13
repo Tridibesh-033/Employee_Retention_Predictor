@@ -6,3 +6,7 @@ This project applies machine learning to analyze factors affecting employee rete
 ## Why Retention ??
 
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/reasons.png?raw=true)
+
+## Some Benefits of Employee Retention
+
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/benefits.png?raw=true)
