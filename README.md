@@ -23,7 +23,11 @@ This project applies machine learning to analyze factors affecting employee rete
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output_1.png?raw=true)
 
 
-# User Application 
+# Streamlit User Application 
+
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%20(212).png?raw=true)
+
+
 
 
 
