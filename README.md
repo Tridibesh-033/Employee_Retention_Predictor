@@ -10,3 +10,16 @@ This project applies machine learning to analyze factors affecting employee rete
 ## Some Benefits of Employee Retention within an Organization
 
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/benefits.png?raw=true)
+
+
+# Some exploratory data analysis to figure out which variables have direct and clear impact on employee retention
+
+## Plot bar charts showing impact of employee salaries on retention
+
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output.png?raw=true)
+
+## Plot bar charts showing corelation between department and employee retention
+
+
+
+
