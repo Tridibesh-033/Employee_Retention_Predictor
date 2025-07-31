@@ -7,6 +7,13 @@ A machine learning web application that predicts whether an employee will **stay
 ## Some Benefits of Employee Retention within an Organization
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/benefits.png?raw=true)
 
+## Some exploratory data analysis to figure out which variables have direct and clear impact on employee retention
+Plot bar charts showing impact of employee salaries on retention
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output.png?raw=true)
+
+Plot bar charts showing corelation between department and employee retention
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output_1.png?raw=true)
+
 ### Built using **Pandas, Scikit-learn, Random Forest**, and **Streamlit**.
 
 ## 📌 Features
@@ -26,6 +33,15 @@ A machine learning web application that predicts whether an employee will **stay
         
 ## 📁 Project Structure
 <img width="280" height="123" alt="{E62A8983-5B01-4E45-BFC9-A99AD76AE14E}" src="https://github.com/user-attachments/assets/ce104c43-f32b-44e9-b819-bb74307e75f5" />
+
+## 🚀 Getting Started
+### 🔧 Prerequisites
+- Python 3.8 or above
+
+## 📦 Installation
+git clone https://github.com/Tridibesh-033/Employee_Retention_Predictor.git
+cd Employee_Retention_Predictor
+pip install -r requirements.txt
 
 ## Run the web app:
 streamlit emp_retention_UI.py
@@ -50,13 +66,6 @@ streamlit emp_retention_UI.py
 2. Model: RandomForestClassifier (sklearn)
 3. Accuracy: 91.3% on test data
 4. Features Used: Satisfaction level || Average monthly hours || Promotion in last 5 years || Salary category (one-hot encoded)
-
-## Some exploratory data analysis to figure out which variables have direct and clear impact on employee retention
-Plot bar charts showing impact of employee salaries on retention
-![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output.png?raw=true)
-
-Plot bar charts showing corelation between department and employee retention
-![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output_1.png?raw=true)
 
 ## 🧠 Future Improvements
 1. Add more HR factors like number of projects, time at company, etc.
