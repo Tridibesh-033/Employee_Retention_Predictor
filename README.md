@@ -7,7 +7,7 @@ A machine learning web application that predicts whether an employee will **stay
 ## Some Benefits of Employee Retention within an Organization
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/benefits.png?raw=true)
 
-Built using **Pandas, Scikit-learn, Random Forest**, and **Streamlit**.
+### Built using **Pandas, Scikit-learn, Random Forest**, and **Streamlit**.
 
 ## 📌 Features
 - 🔍 Predicts employee retention using historical HR data
@@ -25,14 +25,7 @@ Built using **Pandas, Scikit-learn, Random Forest**, and **Streamlit**.
 - Streamlit        
         
 ## 📁 Project Structure
-Employee_Retention_Predictor/
-│
-├── emp_reten.pkl          # Trained ML model
-├── HR_comma_sep.csv       # Dataset
-├── emp_retention_UI.py    # Streamlit web app
-├── style.css              # Custom CSS for UI styling
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
+<img width="280" height="123" alt="{E62A8983-5B01-4E45-BFC9-A99AD76AE14E}" src="https://github.com/user-attachments/assets/ce104c43-f32b-44e9-b819-bb74307e75f5" />
 
 ## Run the web app:
 streamlit emp_retention_UI.py
@@ -40,27 +33,23 @@ streamlit emp_retention_UI.py
 ### Streamlit User Application 
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%20(212).png?raw=true)
 
-Enter values for:
+#### Enter values for:
 1. Satisfaction level
 2. Average monthly hours
 3. Promotion in last 5 years
 4. Salary level (Low, Medium, High)
 
 ### Click on "Predict" to get the result:
-✅ The Employee will Stay
+#### ✅ The Employee will Stay
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231546.png?raw=true)
-❌ The Employee will Leave
+#### ❌ The Employee will Leave
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231437.png?raw=true)
 
 ## 📊 Model Training Summary
 1. Dataset: 14,999 employee records from HR_comma_sep.csv
 2. Model: RandomForestClassifier (sklearn)
 3. Accuracy: 91.3% on test data
-4. Features Used:
-- Satisfaction level
-- Average monthly hours
-- Promotion in last 5 years
-- Salary category (one-hot encoded)
+4. Features Used: Satisfaction level || Average monthly hours || Promotion in last 5 years || Salary category (one-hot encoded)
 
 ## Some exploratory data analysis to figure out which variables have direct and clear impact on employee retention
 Plot bar charts showing impact of employee salaries on retention
