@@ -39,9 +39,9 @@ Plot bar charts showing corelation between department and employee retention
 - Python 3.8 or above
 
 ## 📦 Installation
-git clone https://github.com/Tridibesh-033/Employee_Retention_Predictor.git
-cd Employee_Retention_Predictor
-pip install -r requirements.txt
+- git clone https://github.com/Tridibesh-033/Employee_Retention_Predictor.git
+- cd Employee_Retention_Predictor
+- pip install -r requirements.txt
 
 ## Run the web app:
 streamlit emp_retention_UI.py
