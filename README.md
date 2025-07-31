@@ -1,39 +1,80 @@
-# Employee_Retention_Predictor
+# 🧠 Employee Retention Predictor
 
-## This application predicts whether an employee will stay or leave the organization based on input features
-This project applies machine learning to analyze factors affecting employee retention and develops a simple application to provide actionable insights. The model helps HR reduce turnover by making data-driven decisions, improving workforce management, and enhancing organizational efficiency.
+A machine learning web application that predicts whether an employee will **stay or leave** the company based on satisfaction level, work hours, salary, and promotion status.
 
 ## Why Retention ??
-
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/reasons.png?raw=true)
-
 ## Some Benefits of Employee Retention within an Organization
-
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/benefits.png?raw=true)
 
+Built using **Pandas, Scikit-learn, Random Forest**, and **Streamlit**.
+
+## 📌 Features
+- 🔍 Predicts employee retention using historical HR data
+- 📊 Visual insights using salary and department-based retention analysis
+- 🧪 Trained using Random Forest Classifier (91.3% accuracy)
+- 🌐 Interactive web app using Streamlit
+- 💾 Model serialization using Pickle
+
+## 🛠️ Tech Stack
+### Tool/Library
+- Python           
+- Pandas           
+- Matplotlib       
+- Scikit-learn     
+- Streamlit        
+        
+## 📁 Project Structure
+Employee_Retention_Predictor/
+│
+├── emp_reten.pkl          # Trained ML model
+├── HR_comma_sep.csv       # Dataset
+├── emp_retention_UI.py    # Streamlit web app
+├── style.css              # Custom CSS for UI styling
+├── README.md              # Project documentation
+└── requirements.txt       # Python dependencies
+
+## Run the web app:
+streamlit emp_retention_UI.py
+
+### Streamlit User Application 
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%20(212).png?raw=true)
+
+Enter values for:
+1. Satisfaction level
+2. Average monthly hours
+3. Promotion in last 5 years
+4. Salary level (Low, Medium, High)
+
+### Click on "Predict" to get the result:
+✅ The Employee will Stay
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231546.png?raw=true)
+❌ The Employee will Leave
+![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231437.png?raw=true)
+
+## 📊 Model Training Summary
+1. Dataset: 14,999 employee records from HR_comma_sep.csv
+2. Model: RandomForestClassifier (sklearn)
+3. Accuracy: 91.3% on test data
+4. Features Used:
+- Satisfaction level
+- Average monthly hours
+- Promotion in last 5 years
+- Salary category (one-hot encoded)
 
 ## Some exploratory data analysis to figure out which variables have direct and clear impact on employee retention
-
 Plot bar charts showing impact of employee salaries on retention
-
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output.png?raw=true)
 
 Plot bar charts showing corelation between department and employee retention
-
 ![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/output_1.png?raw=true)
 
+## 🧠 Future Improvements
+1. Add more HR factors like number of projects, time at company, etc.
+2. Deploy online using Streamlit Cloud or Heroku
+3. Enable batch predictions via CSV upload
 
-# Streamlit User Application 
-
-![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%20(212).png?raw=true)
-
-## Classification
-
-![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231546.png?raw=true)
-
-
-![img alt](https://github.com/Tridibesh-033/Employee_Retention_Predictor/blob/main/Screenshot%202024-12-13%20231437.png?raw=true)
-
-
-
-
+## 📬 Contact
+- Tridibesh Debnath
+- 📧 tridibeshdebnath@gmail.com
+- Linkedin: https://www.linkedin.com/in/tridibesh-debnath-46b37924a/
